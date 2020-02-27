@@ -136,5 +136,28 @@ form{
 		border: 2px solid red;
 		border-radius: 4px;
 	}
-	
+	#submit-button, #reset-button{
+		display: inline-block;
+		font-family: "Baskerville Old Face";
+		font-size: 24px;
+		font-weight: bold;
+		margin-left: 1%;
+		width: 340px;
+		border-style: dashed;
+		border-radius: 10px;
+		border-color: red;
+		background: lemonchiffon;
+	}
+
+	#reset-button{
+		background: cadetblue;
+	}
+
+	#my-form{
+		width: min-content;
+		width: -moz-min-content;
+		-ms-grid-columns: min-content;
+		margin:auto;
+		height: 100%;
+	}
 }
