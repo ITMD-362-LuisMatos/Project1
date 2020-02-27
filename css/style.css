@@ -25,6 +25,7 @@ form{
 	}
 
 	#h1-title{
+		background: snow;
 		color: red;
 		margin: 5% 0;
 		font-family: "Bookman Old Style";
@@ -56,6 +57,7 @@ form{
 
 @media (min-width: 600px) {
 	#h1-title{
+		background: snow;
 		color: red;
 		margin: 3% 0;
 		font-family: "Bookman Old Style";
@@ -110,6 +112,7 @@ form{
 
 @media (min-width: 1200px) {
 	#h1-title{
+		background: snow;
 		color: red;
 		margin: 3% 0;
 		font-family: "Bookman Old Style";
