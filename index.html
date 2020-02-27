@@ -5,22 +5,27 @@
     <title>ITMD-362: Human Computer Interaction</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/meyerAndNormalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap" rel="stylesheet">
     <script async defer src="javascript/javascript.js"></script>
   </head>
   <body>
-    <h1 id="h1-title">Individual Information</h1>
+    <img id="h1-title" src="images/theYellowAdvantage.png">
+    <div>
+      <p id="intro-paragraph">Sign up below to receive the latest notifications and meeting invites to all of our events. Don't miss out now!</p>
+    </div>
     <form id="my-form" method="get" action="#null" autocomplete="on" enctype="application/x-www-form-urlencoded">
       <fieldset>
-        <label for="phone_field" class="semantic-labels">Phone Number: </label>
+        <label for="phone_field" class="semantic-labels">*Phone Number: </label>
         <input id="phone_field" class="semantic-inputs" type="tel" name="phone_field" placeholder="Ex: (123)4567890" >
-        <label for="email_field" class="semantic-labels">Email Address: </label>
+        <label for="email_field" class="semantic-labels">*Email Address: </label>
         <input id="email_field" class="semantic-inputs" type="email" name="email_field" placeholder="Ex: example@hotmail.com">
-        <label for="dob_field" class="semantic-labels">Date of Birth*</label>
+        <label for="dob_field" class="semantic-labels">Date of Birth</label>
         <input id="dob_field" class="semantic-inputs" type="date" name="dob_field">
+        <p id="terms"><strong><em>You accept the terms & conditions by submitting this form</em></strong></p>
       </fieldset>
       <input class="semantic-inputs" id="submit-button" type="submit" value="Send" onclick="onSubmit()">
       <input class="semantic-inputs" id="reset-button" type="reset" value="Reset">
-      <p id="legend"><em><strong>* means Optional</strong></em></p>
+      <p id="legend"><em><strong>* means Required</strong></em></p>
       <input type="hidden" name="hidden_field" value="lmatos1@hawk.iit.edu">
     </form>
   </body>

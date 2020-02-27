@@ -7,7 +7,25 @@ form{
 	background: aliceblue;
 }
 
+#terms{
+	text-align: center;
+	font-weight: bolder;
+	margin-top: 3%;
+}
+
 @media (max-width: 600px) {
+
+	#intro-paragraph{
+		text-align: center;
+		font-family: 'Kaushan Script';
+		font-size: 16px;
+		margin-bottom: 3%;
+	}
+
+	#h1-title{
+		width: 40%;
+		margin-left: 29%;
+	}
 
 	#legend{
 		text-align: right;
@@ -28,13 +46,6 @@ form{
 		width: 50%;
 	}
 
-	#h1-title{
-		background: snow;
-		color: red;
-		margin: 5% 0;
-		font-family: "Bookman Old Style";
-		font-weight: bolder;
-	}
 
 	.semantic-labels{
 		font-family: "Baskerville Old Face";
@@ -60,22 +71,24 @@ form{
 }
 
 @media (min-width: 600px) {
+
+	#intro-paragraph{
+		text-align: center;
+		font-family: 'Kaushan Script';
+		font-size: 18px;
+		margin-bottom: 3%;
+	}
+
+	#h1-title{
+		width: 30%;
+		margin-left: 34%;
+	}
+
 	#legend{
 		text-align: right;
 		display: inline-block;
 	}
 
-	#h1-title{
-		background: snow;
-		color: red;
-		margin: 3% 0;
-		font-family: "Bookman Old Style";
-		font-weight: bolder;
-		font-size: 24px;
-		width: 100%;
-		text-align: center;
-		display: inline-block;
-	}
 
 	.semantic-labels{
 		font-size: larger;
@@ -121,21 +134,21 @@ form{
 
 @media (min-width: 1200px) {
 
+	#intro-paragraph{
+		text-align: center;
+		font-family: 'Kaushan Script';
+		font-size: 20px;
+		margin-bottom: 3%;
+	}
+
 	#legend{
 		text-align: right;
 		display: inline-block;
 	}
 
 	#h1-title{
-		background: snow;
-		color: red;
-		margin: 3% 0;
-		font-family: "Bookman Old Style";
-		font-weight: bolder;
-		font-size: 36px;
-		width: 100%;
-		text-align: center;
-		display: inline-block;
+		width: 15%;
+		margin-left: 42%;
 	}
 
 	.semantic-labels{
