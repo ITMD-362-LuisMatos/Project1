@@ -120,4 +120,21 @@ form{
 		display: inline-block;
 	}
 
+	.semantic-labels{
+		font-size: 24px;
+		font-family: Bahnschrift;
+		font-weight: bolder;
+		margin-top: 2%;
+		display: inline-block;
+		width: 100%;
+	}
+
+	.semantic-inputs{
+		width: 320px;
+		font-size: 20px;
+		margin-bottom: 10%;
+		border: 2px solid red;
+		border-radius: 4px;
+	}
+	
 }
