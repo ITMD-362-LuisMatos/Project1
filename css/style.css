@@ -37,7 +37,7 @@ form{
 		margin-top: 2%;
 	}
 
-	#submit-button{
+	#submit-button, #reset-button{
 		font-family: "Baskerville Old Face";
 		font-weight: bold;
 		margin-left: 25%;
@@ -46,6 +46,10 @@ form{
 		border-radius: 10px;
 		border-color: red;
 		background: lemonchiffon;
+	}
+
+	#reset-button{
+		background: cadetblue;
 	}
 
 }
@@ -79,7 +83,8 @@ form{
 	}
 
 
-	#submit-button{
+	#submit-button, #reset-button{
+		display: inline-block;
 		font-family: "Baskerville Old Face";
 		font-weight: bold;
 		margin-left: 1%;
@@ -90,6 +95,10 @@ form{
 		background: lemonchiffon;
 	}
 
+	#reset-button{
+		background: cadetblue;
+	}
+
 	#my-form{
 		width: min-content;
 		width: -moz-min-content;
@@ -97,4 +106,18 @@ form{
 		margin:auto;
 		height: 100%;
 	}
+}
+
+@media (min-width: 1200px) {
+	#h1-title{
+		color: red;
+		margin: 3% 0;
+		font-family: "Bookman Old Style";
+		font-weight: bolder;
+		font-size: 36px;
+		width: 100%;
+		text-align: center;
+		display: inline-block;
+	}
+
 }
