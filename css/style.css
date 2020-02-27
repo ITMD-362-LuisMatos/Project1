@@ -49,3 +49,52 @@ form{
 	}
 
 }
+
+@media (min-width: 600px) {
+	#h1-title{
+		color: red;
+		margin: 3% 0;
+		font-family: "Bookman Old Style";
+		font-weight: bolder;
+		font-size: 24px;
+		width: 100%;
+		text-align: center;
+		display: inline-block;
+	}
+
+	.semantic-labels{
+		font-size: larger;
+		font-family: Bahnschrift;
+		font-weight: bolder;
+		margin-top: 2%;
+		display: inline-block;
+		width: 100%;
+	}
+
+	.semantic-inputs{
+		width: 220px;
+		margin-bottom: 10%;
+		border: 2px solid red;
+		border-radius: 4px;
+	}
+
+
+	#submit-button{
+		font-family: "Baskerville Old Face";
+		font-weight: bold;
+		margin-left: 1%;
+		width: 240px;
+		border-style: dashed;
+		border-radius: 10px;
+		border-color: red;
+		background: lemonchiffon;
+	}
+
+	#my-form{
+		width: min-content;
+		width: -moz-min-content;
+		-ms-grid-columns: min-content;
+		margin:auto;
+		height: 100%;
+	}
+}
